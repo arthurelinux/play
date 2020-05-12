@@ -1,0 +1,147 @@
+.welcome, .navbar, .footer {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+section {
+	padding: 150px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+pre, code {
+	background: #f8f8f8;
+	color: #333;
+}
+
+pre {
+	border-left: 2px solid #ccc;
+	padding: 10px;
+}
+
+code {
+	display: inline-block;
+	padding: 0 0.5em;
+	line-height: 1.4em;
+	border-radius: 3px;
+}
+
+table {
+	empty-cells: show;
+	border: 1px solid #cbcbcb;
+	width: 100%;
+	font-size: 0.9em;
+	margin-bottom: 1rem;
+}
+
+thead {
+	background-color: #e0e0e0;
+	color: #000;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+th, td {
+	padding: 0.5em 1em;
+}
+
+h1.title,
+h2.title {
+	font-size: 2.3rem;
+}
+
+blockquote {
+        padding: 10px 20px;
+        margin: 0 0 20px 20px;
+        border-left: 5px solid #eee;
+        font-style: italic;
+}
+
+
+/* Paginator */
+.paginator {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+/* Navbar */
+img.nav-svg-icon {
+	width: 1rem;
+	height: 1rem;
+	padding-bottom: 2px;
+}
+
+.nav-link {
+	font-size: 0.8em;
+}
+
+/* Footer */
+footer {
+	
+	width: 100%;
+	padding: 20px;
+	font-size: 0.8em;
+}
+
+.mini-logo {
+	height: 22px;
+	padding-bottom: 5px;
+}
+
+/* Home - Header */
+header.welcome {
+	padding: 100px 0;
+}
+
+/* Home - Page 
+section.home-page:nth-child(even) { /* Alternate the background color 
+	background: #FAFAFA;
+} */
+footer{
+	clear: both;
+}
+.page-cover-image {
+	background-size: cover;
+	background-position: center;
+}
+
+.page-description {
+	color: #b5b5b5;
+	font-style: italic;
+}
+
+/* VIDEO EMBED RESPONSIVE */
+.video-embed {
+	overflow:hidden;
+	padding-bottom: 56.25%; /* 16:9 */
+	position:relative;
+	height:0;
+}
+.video-embed iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
